@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    display: grid;
+    grid-template: 
+    "Main-Header" 50px
+    "Content-Header" 200px
+    "About-Me" 200px
+    "Portfolio" 200px
+    "Experience" 200px
+    "Footer" 10px /
+    1fr;
+
+    gap: 10px
+    
+}
+
+.Main-Header,
+    .Content-Header {
+        background-color: #b7e4c7;
+}
+
+.About-Me {
+    background-color: white;
+}
+
+.Portfolio {
+    background-color: #f5cdc5;
+}
+
+.Experience {
+    background-color: white;
+}
+
+.Content-Header {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: left
+}
+
+div.Profile {
+    font-size: 8px;
+
+    color: white;
+    
+}
+
+
+.Profile,
+    .Nav-Links {
+    display: grid;
+    grid-template: 
+    "Profile Nav-Links Nav-Links Nav-Links" 50px 50px 50px 50px /
+    1fr;
+
+    gap: 5px
+    
+}
+
